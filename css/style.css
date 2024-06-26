@@ -12,7 +12,7 @@ body {
 .custom-bg{
     background-color: #DDD6C5;
 }
-.images1To5Section, .form, .imagePara, .ArcadiaDistrict{
+.images1To5Section, .form, .imagePara, .ArcadiaDistrict, .custom-bg{
     background-color: #A1A28D;
 }
 .bg-custom {
