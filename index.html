@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <nav class="custom-bg dark:bg-gray-900 w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="./images/EllisDon_ArcadiaDistrict_Logo_Stacked-Black-PNG400.png" alt="Logo" class="h-32 w-auto">      
+            </a>
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <button type="button" class="text-white bg-black  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center rounded uppercase">Register Now</button>
+            </div>
+           
+            </div>
+            </nav>
+      </section>
+ 
+      <section class="middle bg-white p-8  text-center space-y-4 mt-22 sm:mt-22">
+        <h6 class="text-gray-600">Embrace the Unparalleled Modern Lifestyle</h6>
+        <h4 class="text-xl font-semibold">
+            <span>Arcadia District Condos</span> <span>by EllisDon Developments</span>
+        </h4>
+        <h6 class="text-red-600">June 23 2024 ONLY</h6>
+        <h4 class="text-xl font-semibold">
+            <span>Summer Sizzle</span> <span>Limited Time Incentives</span>
+        </h4>
+        <h6 class="text-gray-600 font-bold">EXCLUSIVE INCENTIVES</h6>
+        <h6 class="text-gray-600 font-bold">CHOOSE YOUR INCENTIVE:</h6>
+        <h5 class="text-lg">No Floor Premiums</h5>
+        <h6 class="text-gray-600">OR</h6>
+        <h5 class="text-lg font-bold">Rental Guarantee Program</h5>
+        <h6 class="text-gray-600 font-bold">SPECIAL DRAW</h6>
+        <p class="text-gray-600 font-bold">Enter to Win $500 gift card and premium SMEG appliances!</p>
+        <p class="text-gray-500 text-sm">*Conditions apply</p>
+        <h6 class="text-red-600 font-bold">LIMITED TIME OFFER</h6>
+        <h6 class="text-red-600 font-bold">THE TIME TO BUY IS NOW!</h6>
+    </section>
+
+
+    <section class="image">
+    
+        <div class="text-center grid grid-cols-2 md:grid-cols-3 gap-4 p-4">
+            <div class="flex items-center justify-center">
+                <img class="h-auto max-w-full rounded-lg" src="./images/Arcadia-District-Condos-4.jpg" alt="">
+            </div>
+            <div class="flex items-center justify-center">
+                <img class="h-auto max-w-full rounded-lg" src="./images/arcadia-district-condos3.jpg" alt="">
+            </div>
+            <div class="flex items-center justify-center">
+                <img class="h-auto max-w-full rounded-lg" src="./images/Arcadia-District-Condos-33.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="form text-center py-2">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 max-w-6xl mx-auto p-4 bg-white rounded ">
+            <div class="flex flex-col items-center justify-center">
+                <form class="w-full max-w-sm space-y-4">
+                    <div>
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Name</label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="firstname" type="text" placeholder="First Name">
+                    </div>
+                    <div>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="lastname" type="text" placeholder="Last Name">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Your Email">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Message</label>
+                        <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Your Message" rows="4"></textarea>
+                    </div>
+                    <h3 class="mb-4 font-semibold text-gray-900 dark:text-white">Are you a Agent?</h3>
+                    <ul class="w-48 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                        <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
+                            <div class="flex items-center ps-3">
+                                <input id="vue-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                <label for="vue-checkbox" class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Yes</label>
+                            </div>
+                        </li>
+                        <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
+                            <div class="flex items-center ps-3">
+                                <input id="react-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                <label for="react-checkbox" class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">No</label>
+                            </div>
+                        </li>
+                        </ul>
+                    <div>
+                        <button class="bg-black hover:bg-black-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="max-w-2xl mx-auto p-4 bg-white rounded ">
+                <h5 class="text-xl font-semibold mb-2">REGISTER TO RECEIVE VIP ACCESS TO</h5>
+                <h5 class="text-2xl font-bold mb-4">PLATINUM PRICING & FLOOR PLANS</h5>
+                <p class="mb-4">In the vibrant and rapidly growing Islington City Centre neighborhood of Etobicoke, a revolutionary multi-towered marvel stands tall, redefining contemporary living as we know it. Welcome to Arcadia District Condos, an architectural masterpiece that embodies the perfect fusion of style, luxury, and convenience.</p>
+                <p class="mb-4">Don’t let this chance slip through your fingers; get PLATINUM access to this exciting new community. Experience the burstiness of this English masterpiece that weaves words with precision, immersing you in the perplexity of Arcadia District Condos’ extraordinary world. The journey towards a modern lifestyle like no other begins here.</p>
+                <button class="bg-black text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Contact us</button>
+            </div>
+        </div>
+    </section>
+
+<section class="images1To5Section">
+
+    <section class="card text-center flex items-center justify-center py-8">
+        <div class="max-w-[44rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+            <div class="relative overflow-hidden">
+                <img src="images/unnamed-6-968x1024.jpg"
+                    alt="ui/ux review check" class="border rounded-lg w-full">
+            </div>
+            
+        </div>
+    </section>
+    <section class="card text-center flex items-center justify-center py-2 px-8 ">
+       
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 max-w-[74rem] mx-auto">
+            <div>
+                <img class="h-auto max-w-full rounded-lg" src="./images/one.jpg" alt="">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg" src="./images/two.jpg" alt="">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg" src="./images/three.jpg" alt="">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg" src="./images/four.jpg" alt="">
+            </div>
+            
+        </div>
+        
+    </section> 
+    <section class="card text-center flex items-center justify-center pb-10 px-8 md:px-10 ">
+        <div class="max-w-full md:max-w-[44rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+            <div class="relative overflow-hidden">
+                <img src="images/five.jpg" alt="ui/ux review check" class="border rounded-lg w-full">
+            </div>
+        </div>
+    </section>
+    
+</section>
+
+<!-- multiple-image-text-container 1-->
+<section class="card text-center flex items-center justify-center py-8 px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-6xl mx-auto">
+        <div class="flex items-center justify-center">
+            <img class="w-full max-w-xl h-auto rounded-lg object-cover" src="./images/Arcadia-District-Condos-4.jpg" alt="Arcadia District Condos">
+        </div>
+        <div class="flex items-center justify-center">
+            <p class="text-left">
+                <span class="block pb-4 md:pb-6 lg:pb-8">
+                    Situated at the sought-after address of 56 Fieldway Rd, where the bustling Bloor St W meets the vibrant Kipling Ave, Arcadia District Condos is the epicenter of convenience. It promises to be a multi-use master planned community, catering to the diverse needs of its discerning residents.
+                </span>
+                <span>
+                    Arcadia District Condos boasts four impressive towers, each telling its own unique story. Rising from 12 to a majestic 42 storeys high, these towers house a grand total of 1,297 residential units. Here, no two living spaces are alike, embracing the true essence of burstiness in design. Prepare to be enthralled by the sheer diversity of living spaces, ranging from cozy retreats to lavish sanctuaries.
+                </span>
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- multiple-image-text-container 2-->
+<section class="card text-center flex items-center justify-center py-8 px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-6xl mx-auto">
+        <div class="flex items-center justify-center">
+            <p class="text-left">
+                <span class="block pb-4 md:pb-6 lg:pb-8">
+                    But remember, the allure of Arcadia District Condos is no secret, and the best and most desirable units are in high demand. Act swiftly to secure your place in this unparalleled community of opulence and sophistication. The time to act is now, as this captivating opportunity awaits those who seek a life of elevated living.
+                </span>
+                <span>
+                    EllisDon Developments has evolved from the remarkable success of EllisDon Capital, the division that has delivered 54 Public-Private Partnership projects over the last 20 years. With an experienced team of experts in all major disciplines, EllisDon continues to spearhead some of Canada’s most significant and complex projects, setting new standards in the industry.
+                </span>
+            </p>
+        </div>
+        <div class="flex items-center justify-center">
+            <img class="w-full max-w-xl h-auto rounded-lg object-cover" src="./images/Arcadia-District-Condos-21.jpg" alt="Arcadia District Condos">
+        </div>
+    </div>
+</section>
+
+
+
+<!-- multiple-image-text-container 3-->
+<section class="card text-center flex items-center justify-center py-8 px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-6xl mx-auto">
+        <div class="flex items-center justify-center">
+            <img class="w-full max-w-xl h-auto rounded-lg object-cover" src="./images/aradia.jpg" alt="Arcadia District Condos">
+        </div>
+        <div class="flex items-center justify-center">
+            <div class="text-left">
+                <span class="block text-center text-2xl font-bold mb-4">Main Reasons To Invest</span>
+                <span class="block pb-4 md:pb-6 lg:pb-8">
+                    The architectural design of Arcadia District Etobicoke embodies contemporary elegance, with its neutral-toned brickwork, expansive floor-to-ceiling windows, and distinctive glass elements that highlight the podium and balconies.
+                </span>
+                <span>
+                    Nestled within the dynamic Etobicoke City Centre neighborhood, Arcadia District Condos finds itself at the heart of rapid expansion and revitalization efforts. This area has experienced substantial investment from the city, transforming it into a thriving mixed-use community.
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- multiple-image-text-container 4-->
+<section class="card text-center flex items-center justify-center py-8 px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-6xl mx-auto">
+        <div class="flex items-center justify-center">
+            <div class="text-left">
+                <span class="block text-center text-3xl font-bold mb-4">NEW CONDO DEVELOPMENT ETOBICOKE</span>
+                <span class="block pb-4 md:pb-6 lg:pb-8">
+                    Arcadia District Etobicoke shall occupy more than four acres of land, encompassing several towers that will be erected over three distinct phases.
+                </span>
+                <span>
+                    Amongst its offerings, the project shall boast a rooftop pool and an exclusive amenity club spanning an impressive 60,000 sq.ft. Furthermore, there will be 140,000 sq.ft. of retail and commercial space on the ground floor, as well as a daycare facility, enriching the local community with additional conveniences.
+                </span>
+            </div>
+        </div>
+        <div class="flex items-center justify-center">
+            <img class="w-full max-w-xl h-auto rounded-lg object-cover" src="./images/Arcadia-District-Condos-33.jpg" alt="Arcadia District Condos">
+        </div>
+    </div>
+</section>
+
+
+
+<!-- multiple-image-text-container 5-->
+<section class="card text-center flex items-center justify-center py-8 px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-6xl mx-auto">
+        <div class="flex items-center justify-center">
+            <img class="w-full max-w-xl h-auto rounded-lg object-cover" src="./images/56-fieldway-road-02-1-1-1-768x438-1.jpg" alt="Arcadia District Condos">
+        </div>
+        <div class="flex items-center justify-center">
+            <p class="text-left">
+                <span class="block pb-4 md:pb-6 lg:pb-8">
+                    Phase 1 and 2 are to comprise two separate buildings, each with a six-storey podium, while Phase 3 will feature two interconnected towers supported by a shared podium.
+                </span>
+                <span class="block pb-4 md:pb-6 lg:pb-8">
+                    This multi-towered mixed-use development situated in the Islington City Centre neighborhood shall encourage a sense of community among its residents. They will have the privilege of availing themselves of shared amenities across all buildings, alongside access to the retail and daycare spaces catering to up to 70 children. Additionally, the condominium project shall encompass a 26,000 sq.ft. Arcadia Park for the exclusive use of its inhabitants.
+                </span>
+                <span>
+                    The suite options within each building will be extensive, catering to various lifestyles, ranging from studios to one, two, and three-bedroom units.
+                </span>
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- multiple-image-text-container 6-->
+<section class="card text-center flex items-center justify-center py-8 px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-6xl mx-auto">
+        <div class="flex items-center justify-center">
+            <p class="text-left">
+                <span class="block pb-4 md:pb-6 lg:pb-8">
+                    For the entirety of the four towers, a total of 681 parking spaces shall be made available, though considering the proximity of the subway station and GO train, private vehicles may be rendered unnecessary, as both lie within a mere 10-minute distance from the development.
+                </span>
+                <span class="block pb-4 md:pb-6 lg:pb-8">
+                    These new pre-construction towers are projected to rise impressively, ranging from 12 to 42 storeys, comprising a grand total of 1,297 residential units. The location will be near the intersection of Kipling Ave and Bloor St W.
+                </span>
+                <span class="block pb-4 md:pb-6 lg:pb-8">
+                    An opulent outdoor amenity space shall grace the podium, found on the seventh floor of each building, while at ground level, two new pedestrian pathways will enhance accessibility.
+                </span>
+                <span>
+                    Modern architecture will define this development, featuring a harmonious blend of neutral-toned brick, expansive floor-to-ceiling windows, and elegant glass elements adorning the podium and balconies.
+                </span>
+            </p>
+        </div>
+        <div class="flex items-center justify-center">
+            <img class="w-full max-w-xl h-auto rounded-lg object-cover" src="./images/arcadia-district-cover-graphic-1024x1024.jpg" alt="Arcadia District Condos">
+        </div>
+    </div>
+</section>
+
+
+<!---Single image with para graph -->
+<section class="text-center imagePara py-8 px-4 md:px-8">
+    <div class="mx-auto max-w-3xl">
+        <img class="h-auto max-w-full rounded-lg shadow-md mb-4" src="./images/arcadia-district-condos3.jpg" alt="image description">
+    </div>
+    <p class="text-gray-700 leading-relaxed font-bold text-xl sm:text-lg mx-4 md:mx-auto max-w-6xl">
+        Anticipate an influx of additional details regarding this exceptional development in the near future. Register with us today to stay abreast of all updates and developments.
+    </p>
+</section>
+
+<!----Arcadia District Condos Section -->
+<section class="card text-center flex items-center justify-center py-8 px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-6xl mx-auto">
+        <div class=" items-center justify-center">
+            <div class="text-center md:text-left">
+                <span class="flex items-center justify-center block text-3xl font-bold mb-4">
+                    Arcadia District Condos
+                </span>
+                <span class="block pb-4 md:pb-6 lg:pb-8">
+                    Developer: <strong>Ellis Don</strong>
+                </span>
+                <span class="block pb-4 md:pb-6 lg:pb-8">
+                    Location:  <strong>56 Fieldway Rd, Etobicoke Ontario</strong>
+                </span>
+                <span class="block pb-4 md:pb-6 lg:pb-8">         
+                    Intersection: <strong>Kipling Ave & Dundas West</strong>
+                </span>
+                <span class="block pb-4 md:pb-6 lg:pb-8">
+                    Number of Condos: <strong>34 / 405 (Phase 1)</strong>
+                </span>
+                <span class="block pb-4 md:pb-6 lg:pb-8">
+                    Suite Types: <strong>Studio – Three Bedroom</strong>
+                </span>
+                <span class="block pb-4 md:pb-6 lg:pb-8">
+                    Pricing: <strong>Starting from the $400s</strong>
+                </span>
+                <span class="block pb-4 md:pb-6 lg:pb-8">
+                    Occupancy: <strong>2027</strong>
+                </span>
+                <button class="bg-black text-white px-4 py-2 rounded-lg mt-4 md:mt-8">Register Today</button>
+            </div>
+        </div>
+        <div class="flex items-center justify-center">
+            <img class="w-full max-w-md md:max-w-xl h-auto rounded-lg object-cover" src="./images/Arcadia-District-Agent-Story-Post-4.jpg" alt="Arcadia District Condos">
+        </div>
+    </div>
+</section>
+
+
+
+<!----Arcadia District Condos 2 text Section -->
+<section class="ArcadiaDistrict card text-center flex items-center justify-center py-8 px-8">
+    <div class=" max-w-6xl mx-auto items-center justify-center">
+        <div class=" items-center justify-center">
+            <div class="text-center md:text-left">
+                <span class="flex items-center justify-center block text-6xl  mb-4">
+                    Arcadia District Condos
+                </span>
+                <span class="text-center block pb-4 md:pb-6 lg:pb-8">
+                    Welcome to Arcadia District Condos, an innovative and contemporary condo development brought to you by EllisDon Developments, situated at the prime location of Bloor St W & Kipling Ave in Toronto.
+                </span>
+                <span class=" text-center block pb-4 md:pb-6 lg:pb-8">
+                    Step into the world of Arcadia District Etobicoke, where modern living meets urban convenience in an exceptional multi-towered project designed to elevate your lifestyle.
+                </span>
+                <span class=" text-center block pb-4 md:pb-6 lg:pb-8">         
+                    Located in Etobicoke, this groundbreaking project by EllisDon consists of four remarkable towers, ranging from 12 to 42 stories high, comprising a total of 1,297 residential units. The address, 56 Fieldway Rd, is conveniently nestled near the intersection of Kipling Ave and Bloor St W.
+                </span>
+                <span class=" text-center block pb-4 md:pb-6 lg:pb-8">
+                    Embracing a three-phase development, each phase boasts its own unique charm. Phase 1 stands tall at 34 storeys and offers 405 residential units. Phase 2 soars to an impressive 42 storeys, while Phase 3 features an intriguing blend of heights, ranging from 12 to 23 storeys. With this diverse range, Arcadia District Condos caters to various lifestyles, providing an array of studio to three-bedroom suite options.
+                </span>
+                <span class=" text-center block pb-4 md:pb-6 lg:pb-8">
+                    Sprawled across four acres of land, Arcadia District will encompass multiple towers across its three phases. The residents will relish a plethora of amenities, including a rooftop pool, a sprawling 60,000 sq.ft private amenity club, and 140,000 sq.ft of retail and commercial space on the ground floor. Not to forget, a daycare facility will be integrated into the development, enhancing convenience and services for the entire community.
+                </span>
+                <span class=" text-center block pb-4 md:pb-6 lg:pb-8">
+                    Phase 1 and 2 will be housed in separate buildings, each with a six-storey podium, while Phase 3 will consist of two interconnected towers sharing a common podium.
+                </span>
+                <span class=" text-center block pb-4 md:pb-6 lg:pb-8">
+                    At Arcadia District Condos, community living takes center stage, offering residents the opportunity to benefit from the offerings of all towers. Shared amenities, retail outlets, and daycare services are accessible to all, fostering a harmonious living experience. Moreover, Arcadia District will be complemented by the expansive 26,000 sq.ft Arcadia Park, adding a touch of nature’s allure to this contemporary marvel.
+                </span>
+                <span class=" text-center block pb-4 md:pb-6 lg:pb-8">
+                    With an outstanding Transit Score of 95 out of 100, this location offers excellent transportation options. Kipling Station Hub, Kipling Station, and Kipling GO Station are all within a 5-minute walk, while Islington subway station is a mere 10 minutes away, providing swift access to downtown Toronto in just 30 minutes. The GO system opens up numerous destinations across the Greater Toronto Area, making commuting a breeze.
+                </span>
+                <span class=" text-center block pb-4 md:pb-6 lg:pb-8">
+                    Urban amenities abound in the vicinity, with a diverse range of shops, restaurants, cafes, parks, and more to cater to residents’ needs. Major retailers like Shoppers Drug Mart, Ikea, Costco, Walmart, Winners, and HomeSense are conveniently nearby, and Sherway Gardens, with its wide selection of stores and dining options, is just a short 9-minute drive away.
+                </span>
+                <span class=" text-center block pb-4 md:pb-6 lg:pb-8">
+                    Nature enthusiasts will be delighted by the proximity to Tom Riley Park, offering lush pathways, picnic spots, and the serene beauty of Mimico Creek. The park also connects to the Islington Golf Club, a haven for golf enthusiasts. Furthermore, the waterfront is just minutes away, adding to the appeal of this ever-growing area, which also holds significant potential for investors.
+                </span>
+                <span class=" text-center block pb-4 md:pb-6 lg:pb-8">
+                    Arcadia District Etobicoke presents an irresistible opportunity to embrace a vibrant urban lifestyle amidst a flourishing community with excellent connectivity and an abundance of amenities.
+                </span>
+             
+            </div>
+        </div>
+     </div>   
+</section>
+
+
+<!----Arcadia District Condos Section -->
+<section class="py-8 px-8 w-full max-w-7xl mx-auto text-center flex items-center justify-center">
+    <div class="grid grid-cols-1 md:grid-cols-2 ">
+        <!-- First Column -->
+        <div class=" p-4 rounded-lg">
+            <div class="flex items-center justify-center mb-4">
+                <img class="max-w-full h-auto rounded-lg object-cover" src="./images/ellisdon.jpg" alt="Arcadia District Condos">
+            </div>
+            <div class="text-center md:text-left">
+                <span class="text-center block text-4xl font-bold mb-8">The Builder</span>
+                <span class="text-center block pb-4 md:pb-6 lg:pb-8">
+                    <strong>Innovative Real Estate Developer in Arcadia District</strong> EllisDon Developments stands at the forefront of the global construction industry, boasting a legacy of over seven decades in delivering projects valued at more than $5 billion annually. This distinguished firm holds sway over a vast array of ventures, exemplifying excellence in both perplexity and burstiness.
+                </span>
+                <span class="text-center block pb-4 md:pb-6 lg:pb-8">
+                    With a workforce exceeding 4,000 individuals, EllisDon Developments shapes destinies, fostering thriving and burgeoning communities. Its prowess extends to the construction of public and private sector dwellings, industrial facilities, and civil edifices, redefining the landscape of the industry through visionary concepts, unwavering dedication, and multifaceted proficiency.
+                </span>
+            </div>
+        </div>
+        
+        <!-- Second Column -->
+        <div class=" p-4 rounded-lg ">
+            <div class=" shadow-md bg-white p-4 rounded-lg max-w-xs mx-auto transform transition-all hover:-translate-y-1 hover:shadow-lg">
+                <div class="flex items-center mb-5">
+                    <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                    <span class="text-lg font-bold">
+                        <span class="block">Absolute First Access to Pricing and Floor Plans</span>
+                    </span>
+                </div>  
+
+                <div class="flex items-center mb-5">
+                    <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                    <span class="text-lg font-bold">
+                        <span class="block">The Very Best Incentives & Promotions </span>
+                      
+                    </span>
+                </div>  
+                <div class="flex items-center mb-5">
+                    <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                    <span class="text-lg font-bold">
+                        <span class="block">Extended Deposit Structure</span>
+                      
+                    </span>
+                </div>  
+
+                <div class="flex items-center mb-5">
+                    <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                    <span class="text-lg font-bold">
+                        <span class="block">Capped Development Levies </span>
+                      
+                    </span>
+                </div> 
+                <div class="flex items-center mb-5">
+                    <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                    <span class="text-lg font-bold">
+                        <span class="block">Right of Assignment </span>
+                      
+                    </span>
+                </div>   
+                <div class="flex items-center mb-5">
+                    <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                    <span class="text-lg font-bold">
+                        <span class="block">Free Lawyer Review of your Purchase Agreement</span>
+                      
+                    </span>
+                </div>  
+                <div class="flex items-center mb-5">
+                    <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                    <span class="text-lg font-bold">
+                        <span class="block">Free Mortgage Arrangements</span>
+                      
+                    </span>
+                </div>  
+              
+                <button class="bg-black text-white px-4 py-2 rounded-lg shadow-md transform transition-all hover:-translate-y-1 hover:shadow-lg">
+                    Developer Approved Platinum VIP Agents >
+                </button>
+                
+
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<!----Sectin form  -->
+
+<section class="py-8 px-8 w-full max-w-6xl text-center flex flex-col items-center justify-center mx-auto">
+    <p class="text-xl font-semibold">PLATINUM PRICING & FLOOR PLANS</p>
+    <h1 class="text-2xl md:text-3xl font-bold mb-8">
+        GET FIRST ACCESS! REGISTER TO RECEIVE VIP ACCESS
+    </h1>
+</section>
+<section>
+    <form class="max-w-sm mx-auto">
+        <div class="mb-5">
+          <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Name</label>
+          <input type="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name" required />
+        </div>
+        <div class="mb-5">
+          <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+          <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com" required />
+        </div>
+        <div class="mb-5">
+          <label for="talephone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your talephone</label>
+          <input type="text" id="talephone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+        </div>
+        <div class="flex flex-col md:flex-row items-start mb-5 space-y-4 md:space-y-0 md:space-x-4">
+            <p>Are you a Agent?</p>
+            <!-- First Checkbox -->
+            <div class="flex items-center">
+                <input id="remember1" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
+                <label for="remember1" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Yes</label>
+            </div>
+        
+            <!-- Second Checkbox -->
+            <div class="flex items-center">
+                <input id="agent" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
+                <label for="agent" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">No</label>
+            </div>
+        </div>
+        <button type="submit" class="text-white bg-black hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-black dark:hover:bg-gray-700 dark:focus:ring-gray-800">Submit</button>
+<p class="text-xl mb-10">REGISTER NOW TO RECEIVE VIP PRICING & FLOOR PLANS</p>
+      </form>
+      
+</section>
+
+
+<!--Section Pricing Starting From The $500s! -->
+<section class="bg-custom py-8 px-4 w-full text-center ">
+    <div class=" bg-opacity-70 p-4 rounded-lg max-w-7xl mx-auto">
+        <p class="text-lg md:text-xl font-semibold mb-4 text-black">Pricing Starting From The $500s!</p>
+        <h1 class="text-2xl md:text-3xl font-bold mb-8 text-black">
+            LOCATED IN DOWNTOWN ETOBICOKE
+        </h1>
+        <p class="text-base md:text-lg leading-relaxed max-w-3xl mx-auto text-black">
+            Discover the wonders of Arcadia District Condos: Experience world-class public transportation, making commuting a breeze. Nestled within the vibrant Kipling Transit Hub in Etobicoke, offering easy access to various destinations. A leisurely 10-minute stroll to Islington Station, ensuring convenient travel options. Immerse yourself in a plethora of shopping, dining, and entertainment choices, right at your doorstep. Embrace a family-friendly environment with proximity to schools, fostering an ideal living space. Delight in the lush greenery of nearby parks, including Greenfield Park, Cloverdale Park, and Echo Valley Park, perfect for nature enthusiasts. In summary, Arcadia District Condos provide the perfect blend of accessibility, convenience, and leisure, making it an exceptional choice for a contemporary and comfortable living experience.
+        </p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 max-w-6xl mx-auto">
+        <div class="p-6 rounded-lg relative">
+            <div class="mt-10">
+                <p class="text-lg font-semibold mb-2 text-center">Online Contact</p>
+                <h1 class="text-2xl font-bold mb-4 text-center">Arcadia District Help Centre</h1>
+                <h2 class="text-xl font-medium mb-6 text-center">DEVELOPER: EllisDon</h2>
+            </div>
+            <button class="bg-black text-white font-medium py-2 px-4 rounded hover:bg-gray-800 transition duration-200  text-center">
+                Get in touch with Kipling Station Condos team >
+            </button>
+        </div>
+        
+        <div class="p-6 rounded-lg">
+            <!-- Content for the second column -->
+            <p class="text-lg font-semibold mb-10">Location</p>
+            <h3 class="text-xl font-medium mb-10">Bloor St W & Kipling Ave, Etobicoke ON</h3>
+            <p class="font-bold mb-10">Call</p>
+            <p class="mb-4">416-824-4819</p>
+            <p class="font-bold mb-10">Send us an email</p>
+            <p class="mb-4">info@thearcadiadistrict.ca</p>
+        </div>
+    </div>
+    
+</section>
+
+
+  <!---Single image with para graph -->
+  <section class="text-center py-8 px-4 md:px-8">
+    <div class="mx-auto max-w-6xl">
+        <img class="h-auto max-w-full rounded-lg shadow-md mb-4 mx-auto" src="./images/aradia.jpg" alt="image description">
+    </div>
+    <p class="text-left text-gray-700 leading-relaxed font-bold text-xl sm:text-lg mx-4 md:mx-auto max-w-6xl">
+        * Terms & Conditions Apply – See Sales Representative For More Information ** We do not represent the builder . All renderings , incentives , pricing are subject to terms & conditions are may change at anytime without notice – see sales representatives for more details . pre construction in Etobicoke | y9929 condos | rise and rose Evelyn condo | 8 Temple | 8 Temple condos | Abovecondos Above condos | Q Tower | LSQ 2 Condos | M6city condos | Arcadia district condos | Encore At Bravo
+    </p>
+    <p class="text-left mt-10 max-w-6xl mx-auto">
+        Aydin Oskouei | Century 21 Percy Fulton LTD | 416-824-4819 | Aydin.oskouei@gmail.com
+    </p>
+</section>
+
+
+</body>
+</html>

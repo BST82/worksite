@@ -1,0 +1,23 @@
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: left;
+    background-color: #fff;
+    width: 100%;
+    min-height: 100vh;
+}
+.custom-bg{
+    background-color: #DDD6C5;
+}
+.images1To5Section, .form, .imagePara, .ArcadiaDistrict{
+    background-color: #A1A28D;
+}
+.bg-custom {
+    background-image: url('../images/bg.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
